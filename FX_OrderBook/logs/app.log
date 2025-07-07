@@ -1,0 +1,46 @@
+21-06-2025 18:14:14 INFO  com.profidata.utility.service.HttpService - HTTP Request: 'retrieveOrders'; status code: 200
+21-06-2025 18:14:14 INFO  com.profidata.utility.service.HttpService - HTTP Request: 'rateSnapshot'; status code: 200
+21-06-2025 18:20:21 INFO  com.profidata.utility.service.HttpService - HTTP Request: 'supportedCurrencyPair'; status code: 200
+21-06-2025 18:21:33 INFO  com.profidata.utility.service.HttpService - HTTP Request: 'supportedCurrencyPair'; status code: 200
+21-06-2025 18:21:58 INFO  com.profidata.utility.service.HttpService - HTTP Request: 'supportedCurrencyPair'; status code: 200
+21-06-2025 18:22:50 INFO  com.profidata.utility.service.HttpService - HTTP Request: 'supportedCurrencyPair'; status code: 200
+21-06-2025 18:22:51 INFO  com.profidata.utility.service.HttpService - HTTP Request: 'newOrder' | Body:{"id":null,"investmentCcy":"buy","buy":false,"counterCcy":"EUR","limit":1.14,"validUntil":"12/12/2025"}; status code: 200
+21-06-2025 18:24:43 INFO  com.profidata.utility.service.HttpService - HTTP Request: 'supportedCurrencyPair'; status code: 200
+21-06-2025 18:24:43 INFO  com.profidata.utility.service.HttpService - HTTP Request: 'newOrder' | Body:{"id":null,"investmentCcy":"buy","buy":false,"counterCcy":"USD","limit":1.04,"validUntil":"30/12/2025"}; status code: 200
+21-06-2025 18:25:29 INFO  com.profidata.utility.service.HttpService - HTTP Request: 'retrieveOrders'; status code: 200
+21-06-2025 18:25:29 INFO  com.profidata.utility.service.HttpService - HTTP Request: 'rateSnapshot'; status code: 200
+21-06-2025 18:29:22 INFO  com.profidata.utility.service.HttpService - HTTP Request: 'retrieveOrders'; status code: 200
+21-06-2025 18:29:22 INFO  com.profidata.utility.service.HttpService - HTTP Request: 'rateSnapshot'; status code: 200
+21-06-2025 18:32:58 INFO  com.profidata.utility.service.HttpService - HTTP Request: 'supportedCurrencyPair'; status code: 200
+21-06-2025 18:32:58 INFO  com.profidata.utility.service.HttpService - HTTP Request: 'newOrder' | Body:{"id":null,"investmentCcy":"USD","buy":true,"counterCcy":"EUR","limit":1.1,"validUntil":"12/12/2025"}; status code: 200
+21-06-2025 18:33:14 INFO  com.profidata.utility.service.HttpService - HTTP Request: 'supportedCurrencyPair'; status code: 200
+21-06-2025 18:33:14 INFO  com.profidata.utility.service.HttpService - HTTP Request: 'newOrder' | Body:{"id":null,"investmentCcy":"EUR","buy":false,"counterCcy":"USD","limit":1.05,"validUntil":"12/07/2025"}; status code: 200
+21-06-2025 18:33:17 INFO  com.profidata.utility.service.HttpService - HTTP Request: 'retrieveOrders'; status code: 200
+21-06-2025 18:33:17 INFO  com.profidata.utility.service.HttpService - HTTP Request: 'rateSnapshot'; status code: 200
+21-06-2025 18:42:38 ERROR com.profidata.utility.service.HttpService - HTTP Request: 'cancelOrder' | Body:11 - status code: 415
+Message: (POST http://localhost:8888/cancelOrder) 415
+21-06-2025 18:42:47 INFO  com.profidata.utility.service.HttpService - HTTP Request: 'cancelOrder' | Body:11; status code: 200
+21-06-2025 18:42:54 INFO  com.profidata.utility.service.HttpService - HTTP Request: 'retrieveOrders'; status code: 200
+21-06-2025 18:42:54 INFO  com.profidata.utility.service.HttpService - HTTP Request: 'rateSnapshot'; status code: 200
+21-06-2025 18:45:16 INFO  com.profidata.utility.service.HttpService - HTTP Request: 'cancelOrder' | Body:11; status code: 200
+21-06-2025 18:45:39 INFO  com.profidata.utility.service.HttpService - HTTP Request: 'retrieveOrders'; status code: 200
+21-06-2025 18:45:39 INFO  com.profidata.utility.service.HttpService - HTTP Request: 'rateSnapshot'; status code: 200
+21-06-2025 18:46:13 INFO  com.profidata.utility.service.HttpService - HTTP Request: 'retrieveOrders'; status code: 200
+21-06-2025 18:46:37 INFO  com.profidata.utility.service.HttpService - HTTP Request: 'rateSnapshot'; status code: 200
+21-06-2025 18:51:34 INFO  com.profidata.utility.service.HttpService - HTTP Request: 'cancelOrder' | Body:3; status code: 200
+21-06-2025 18:56:15 INFO  com.profidata.utility.service.HttpService - HTTP Request: 'cancelOrder' | Body:3; status code: 200
+21-06-2025 18:56:20 INFO  com.profidata.utility.service.HttpService - HTTP Request: 'cancelOrder' | Body:3; status code: 200
+21-06-2025 18:56:30 INFO  com.profidata.utility.service.HttpService - HTTP Request: 'retrieveOrders'; status code: 200
+21-06-2025 18:56:30 INFO  com.profidata.utility.service.HttpService - HTTP Request: 'rateSnapshot'; status code: 200
+21-06-2025 19:45:08 INFO  com.profidata.utility.service.HttpService - HTTP Request: 'supportedCurrencyPair'; status code: 200
+21-06-2025 19:46:04 INFO  com.profidata.utility.service.HttpService - HTTP Request: 'supportedCurrencyPair'; status code: 200
+21-06-2025 19:55:37 INFO  com.profidata.utility.service.HttpService - HTTP Request: 'supportedCurrencyPair'; status code: 200
+21-06-2025 19:55:37 INFO  com.profidata.utility.service.HttpService - HTTP Request: 'supportedCurrencyPair'; status code: 200
+21-06-2025 19:59:08 INFO  com.profidata.utility.service.HttpService - HTTP Request: 'supportedCurrencyPair'; status code: 200
+21-06-2025 20:25:26 INFO  com.profidata.utility.service.HttpOrderService - HTTP Request: 'retrieveOrders'; status code: 200
+21-06-2025 20:25:26 INFO  com.profidata.utility.service.HttpRateService - HTTP Request: 'rateSnapshot'; status code: 200
+21-06-2025 20:25:31 INFO  com.profidata.utility.service.HttpOrderService - HTTP Request: 'retrieveOrders'; status code: 200
+21-06-2025 21:41:44 ERROR com.profidata.utility.service.HttpRateService - HTTP Request: 'supportedCurrencyPairs' - failed: null
+21-06-2025 21:43:24 INFO  com.profidata.utility.service.HttpRateService - HTTP Request: 'supportedCurrencyPair'; status code: 200
+21-06-2025 22:05:23 INFO  com.profidata.utility.service.HttpOrderService - HTTP Request: 'retrieveOrders'; status code: 200
+21-06-2025 22:05:23 INFO  com.profidata.utility.service.HttpRateService - HTTP Request: 'rateSnapshot'; status code: 200
